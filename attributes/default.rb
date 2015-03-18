@@ -8,5 +8,6 @@ default['localshop']['delete_files'] = false
 default['localshop']['distribution_storage'] = 'storages.backends.overwrite.OverwriteStorage'
 default['localshop']['tz'] = 'Etc/UTC'
 default['localshop']['repository'] = 'git://github.com/mvantellingen/localshop.git'
-default['localshop']['revision'] = '09251828b6a2f8edf85d7d48564236334c030ed0'
+default['localshop']['revision'] = 'd21912d09f00baab7f96e0e948167822f5c2a0ff'
 default['localshop']['secret_key'] = nil
+default['localshop']['gunicorn']['worker_class'] = 'sync'

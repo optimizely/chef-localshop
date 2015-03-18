@@ -77,6 +77,7 @@ application 'localshop' do
     environment(localshop_env)
     host node['localshop']['address']
     port node['localshop']['port']
+    worker_class node['localshop']['gunicorn']['worker_class']
   end
 
   celery do

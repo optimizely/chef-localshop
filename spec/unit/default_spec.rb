@@ -19,7 +19,7 @@ describe 'localshop::default' do
       owner: 'nobody',
       group: 'nogroup',
       repository: 'git://github.com/mvantellingen/localshop.git',
-      revision: '09251828b6a2f8edf85d7d48564236334c030ed0',
+      revision: 'd21912d09f00baab7f96e0e948167822f5c2a0ff',
       migrate: true
     )
   end
